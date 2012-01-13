@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>    
+    <title>Backbone.js intro</title>
+    <link href='css/bootstrap.css' media='all' rel='stylesheet' type='text/css' />        
+    
+    <script id="FanpageTemplate">
+    <td>{{model.name}}</td>
+    <td>{{model.category}}</td>
+    <td>{{model.likes}}</td>
+    <td>{{model.talking_about_count}}</td>
+    </script>
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="topbar">
+      <div class="fill">
+        <div class="container canvas">
+          <a class="brand" href="#">Backbone Intro</a>
+          <ul class="nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#!/search/meetjs">Meetjs</a></li>
+            <li><a href="#!/search/backbone">Backbone</a></li>
+          </ul>  
+          <form action="" class="pull-right">
+            <input id='Search' type='search'/>
+          </form>
+            
+        </div>
+      </div>
+    </div>
+
+    <div class="container canvas">
+      <div class="content">
+        <div class="page-header">                      
+          <h3>Data sources: Graph API</h3>
+          <p>
+          Purpose of our demo is to create an app using RESTful service: <br/>
+          Facebook pages search API: https://graph.facebook.com/search?q=PageName&type=page<br/>
+          Object Details API: https://graph.facebook.com/126046920802509
+          </p>
+          <h3>Data sources: local</h3>
+          <p>
+          chrome.exe --allow-file-access-from-files          
+          </p>
+        </div>
+        <!-- page-header -->
+        <div class="row">
+          <div class="span12">
+            <h2>Fanpages</h2>
+            <section id="SearchResults">          
+              <table class="zebra-striped">
+              <thead>
+              <tr><th>Name</th><th>Category</th><th>Likes</th><th>Talking</th></tr>
+              </thead>
+              <tbody>
+              </tbody>          
+              </table>
+            </section>
+            <!-- SearchResults -->
+          </div>
+          <!-- span12 -->
+        </div>
+        <!-- row -->
+      </div>
+      <!-- content -->
+      <footer>
+      <a href="http://ckrack.github.com/fbootstrapp/">Facebook Bootstrap CSS</a>
+      </foter>             
+    </div>
+    <!-- container -->
+    
+  </div>
+  <script src='javascripts/jquery.min.js' type='text/javascript'></script>
+  <script src='javascripts/underscore-min.js' type='text/javascript'></script>
+  <script src='javascripts/backbone-min.js' type='text/javascript'></script>
+  <script src='javascripts/config.js' type='text/javascript'></script>
+  <script src='javascripts/application.js' type='text/javascript'></script>  
+  </body>
+
+</html>
