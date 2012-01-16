@@ -1,9 +1,3 @@
-1. Download respository
-2. Open javascripts/application.js
-3. ...
-4. PROFIT!
-
-
 Further reading:
 Backbone Fundamentals
 https://github.com/addyosmani/backbone-fundamentals
@@ -16,3 +10,6 @@ https://github.com/tbranyen/backbone-boilerplate
 
 Understanding MVC and MVP for Backbone Developers
 http://addyosmani.com/blog/understanding-mvc-and-mvp-for-javascript-and-backbone-developers/
+
+Podcast about Backbone
+http://addyosmani.com/blog/my-interview-on-sitepoint-about-backbone-js-and-backbone-fundamentals/
